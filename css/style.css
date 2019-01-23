@@ -13,16 +13,24 @@ body{
 
 .magnify-glass{
     background: url("../assets/glass.svg");
+    height: 20px;
+    width: 20px;
+    color: wheat;
+    position: absolute;
+    right: 90px;
+    top: 70px;
+    
+}
+#txt{
+    background-color: rgb(141, 180, 196);
 }
 
 .nav-bar{
     
-    position: 20;
     height: 100%;
     width: 870px;
     margin: 0 auto;
     position: relative;
-    
     text-align: left;
     margin-bottom: 0;
 }
@@ -67,32 +75,25 @@ body{
     background-color: #454545;
 }
 .nav-bar ul  .nav-apple{
-    background: url(../assets/globalnav_text.svg);
-    background-position: 50% 0;
+    background: url(../assets/globalnav_text.svg) 50% 0;
 }
 .nav-bar ul .nav-store{
-     background: url(../assets/globalnav_text.svg);
-     background-position: 50% -28px;
+     background: url(../assets/globalnav_text.svg) 50% -28px;
 }
 .nav-bar ul .nav-mac{
-    background: url(../assets/globalnav_text.svg);
-    background-position: 50% -58px;
+    background: url(../assets/globalnav_text.svg) 50% -58px;
 }
 .nav-bar ul .nav-ipod{
-    background: url(../assets/globalnav_text.svg);
-    background-position: 50% -88px;
+    background: url(../assets/globalnav_text.svg) 50% -88px;
 }
 .nav-bar ul .nav-ipad{
-    background: url(../assets/globalnav_text.svg);
-    background-position: 50% -148px;
+    background: url(../assets/globalnav_text.svg) 50% -148px;
 }
 .nav-bar ul .nav-itunes{
-    background: url(../assets/globalnav_text.svg);
-    background-position: 50% -178px;
+    background: url(../assets/globalnav_text.svg) 50% -178px;
 }
 .nav-bar ul .nav-support{
-    background: url(../assets/globalnav_text.svg);
-    background-position: 50% -208px;
+    background: url(../assets/globalnav_text.svg) 50% -208px;
 }
 .nav-bar .search-bar{
     display: inline-block;
@@ -101,7 +102,6 @@ body{
     top: 0;
     right: 0;
     box-shadow: none;
-    display: inline;
     padding-top: 10px;
     min-width: 94px;
 }
@@ -120,6 +120,8 @@ body{
     height: 24px;
     width: 100px;
 }
+
+
 .main-image{
     background: url(../assets/hero.jpg) no-repeat bottom;
     height: 647px;
@@ -210,10 +212,7 @@ body{
     display:inherit;
     
 }
-.footer span{
-    margin-left: 50px;
-    
-}
+
 .footer a:hover{
  text-decoration: underline;
 }
@@ -223,5 +222,10 @@ body{
 }
 .footer a{
     text-decoration: none;
-    color:rgb(106, 106, 218);
+    color: #08c;
+    font-family:  sans-serif;
+}
+#txt:hover{
+
+    background: #eee !important;
 }
